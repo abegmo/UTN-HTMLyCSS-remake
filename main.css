@@ -1,0 +1,36 @@
+body{
+      font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+      --darkBlue: #2E64A2;
+      --lightBlue:#6EA9ED;
+}
+
+header{
+      background-color: var(--darkBlue) ;
+}
+
+h1{
+      color: white;
+      font-style: italic;
+      font-weight: 300;
+      display: inline-block;
+      position: relative;
+      bottom: 35px;
+}
+
+nav{
+      background-color: var(--lightBlue);
+}
+
+nav ul{
+      margin: 0;
+      list-style: none;
+      padding: 0;
+      display: flex;
+}
+
+nav ul li{
+ flex-grow: 1;     
+}
